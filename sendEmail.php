@@ -20,6 +20,9 @@ $name = filter_var($name, FILTER_SANITIZE_STRING);
 $subject = filter_var($subject, FILTER_SANITIZE_STRING);
 $message = filter_var($message, FILTER_SANITIZE_STRING);
 
+//Combine subject with user's name
+$subject = $subject . "-" . $name;
+
 //Add header
 $headers = 'From:'. $email . "\r\n"; // Sender's Email
 

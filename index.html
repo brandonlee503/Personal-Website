@@ -1,50 +1,455 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Brandon Lee</title>
-    <meta name="description" content="Brandon Lee's Personal Website"/>
-    <meta name="author" content="Brandon Lee"/>
-    <meta name="copyright" content="Brandon Lee Copyright (c) 2015"/>
-    <!------------CSS------------>
-    <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/indexTheme.css"/>
-    <link rel="shortcut icon" href="images/icons/brandonlogo.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Brandon Lee</title>
+
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <!------------Banner------------>
-    <section class="hero">
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="main-wrapper">
-                    <h1><b>Brandon Lee</b></h1>
-                    <hr>
-                    <div class="row">
-                        <div class="large-6 columns large-centered">
-                            <ul class="button-group even-4">
-                                <li><a href="index.html" class="button">Home</a></li>
-                                <li><a href="about.html" class="button">About</a></li>
-                                <li><a href="resume.html" class="button">Résumé</a></li>
-                                <li><a href="contact.html" class="button">Contact</a></li>
-                            </ul>
-                        </div>
+
+	<div class="wrapper">
+
+		<!-- Preloader -->
+		<div id="preloader">
+			<div id="status">
+				<div class="status-mes"><h4>Brandon Lee</h4></div>
+			</div>
+		</div>
+
+		<!-- Navigation start -->
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#intro">Brandon Lee</a>
+				</div>
+
+				<!-- Collect the nav links for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#intro">Home</a></li>
+						<li><a href="#profile">Profile</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Navigation end -->
+
+		<!-- Intro section start -->
+		<section id="intro" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="hello wow bounceInDown">
+							<h1>Hello, I'm Brandon</h1>
+							<h3><span class="rotate">Mobile Developer. | Full Stack Engineer. | Full-time Student.</span></h3>
+						</div>
+
+						<a href="#profile">
+							<div class="mouse-icon">
+								<div class="wheel"></div>
+							</div>
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Intro section end -->
+
+		<!-- Profile section start -->
+		<section id="profile" class="callout">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Brandon Lee</h2>
+						<p>Mobile Developer. Full Stack Engineer. Full-time Student.</p>
+					</div>
+
+					<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+						<img class="avatar" src="assets/images/BrandonCropped.jpg" alt="">
+					</div>
+
+					<div class="col-md-3 col-sm-6 wow bounceInUp">
+
+						<div class="profile-widget">
+							<h3>Skills</h3>
+
+							<h5>iOS (Swift, Objective-C)</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+							</div>
+
+							<h5>Java</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+
+							<h5>JavaScript (Node, Express, Angular, React)</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+
+							<h5>Python</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+						</div>
+
+						<div class="profile-widget">
+							<h3>Social Profiles</h3>
+							<ul class="widget-social">
+								<li><a target="_blank" href="https://www.facebook.com/BLee503"><i class="fa fa-facebook fa-fw"></i></a></li>
+								<li><a target="_blank" href="https://github.com/brandonlee503"><i class="fa fa-github"></i></a></li>
+								<li><a target="_blank" href="http://lnked.in/blee"><i class="fa fa-linkedin"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/brandonlee503/"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</div>
+
                     </div>
-                </div>
-            </div>
-        </div>
-        <!------------Banner Content Box------------>
-        <div class="row">
-            <div class="large-6 columns about-box">
-                <div class="black-box">
-                    <h2>Hello!</h2>
-                    <br>
-                    <p>Welcome to my homepage! I'm Brandon and I enjoy the things that make life simple.</p>
-                    <p>Feel free to browse around and learn more.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
+					<div class="col-md-6 col-sm-12 wow bounceInRight">
+						<h3>Profile</h3>
+						<h4>Hi everyone!</h4>
+						<p>Big thanks for checking out my page, I'm honored by your visit. My name is Brandon and I'm a big fan of travel, food, hiking, running, and learning.
+							I am also a fan of simplicity and style. This website will be dedicated to these interests as well as a few others.
+							All the pictures you see here are taken by me, most of them around Asia during a study abroad semester.
+						</p>
+
+						<p>Right now I'm a computer science student at Oregon State University. I enjoy learning about new technologies and disciplines in the industry,
+							working on individual projects on my free time, and helping others code. CS to me is not only a discipline, but a hobby as well.
+							Currently I'm a fan of iOS and all things in web/mobile development, but I'm always open to all sorts of things. Take a look below for all the technical bits!
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Profile section end -->
+
+		<!-- Resume section start -->
+		<section id="resume">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Resume</h2>
+						<p>My experience and education.</p>
+					</div>
+
+				</div>
+
+                <div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Experience</h3>
+					</div>
+
+					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+						<h4>Mobile Engineering Intern</h4>
+						<p>Incoming Intern.</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i> eBay</h4>
+						<i class="fa fa-calendar"></i> June - September 2016
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Student Developer</h4>
+						<p>Enhanced course registration experience by developing a RESTful Course Catalog API utilizing Java (Dropwizard, Jetty/Jersey/Jackson), Groovy, and Swagger.</p>
+                        <p>Provided directory search feature on OSU’s website through implementing Java/Groovy API service to fetch people data from LDAP servers/Oracle Databases.</p>
+                        <p>Wrote test scripts and documentation, supervised version control, fixed bugs within web applications, and conducted technical hiring interviews for the university, all done under Agile Development.</p>
+                        
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i>OSU Enterprise Computing Services</h4>
+						<i class="fa fa-calendar"></i> April 2015 - Present
+						<hr class="visible-xs">
+					</div>
+                    
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Undergraduate Research Assistant</h4>
+                        <p>Developed underwater AUV simulator by modifying C++ modules alongside existing technologies of ROS and RVIZ, resulting in 60% improved autonomous mapping accuracy.</p>
+                        <p>Implemented multiple pathfinding formulas such as A* and Dijkstra’s algorithm in C++ and Python, increased cooperation with OSU Robotics Team, and edited research papers.</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i>OSU Robotics Decision Making Lab</h4>
+						<i class="fa fa-calendar"></i> January 2014 - January 2015
+						<hr class="visible-xs">
+					</div>
+
+				</div>
+                
+				<div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Education</h3>
+					</div>
+
+					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+						<h4>Computer Science, Bachelor of Science</h4>
+                        <p><i>Academics:</i> 3.32/4.0 GPA</p>
+                        <p><i>Honors:</i> Academic Achievement Scholar – $12,000, Global Freeman-Asia E3 International Scholar –$5,000, Edith McDougall EECS Scholar – $1,500, Engineering Honor Roll</p>
+                        <p><i>Activities:</i> App Club Vice-President (2016), OSU Hackathons (2015), Undergraduate Research (2014)</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-graduation-cap"></i>Oregon State University</h4>
+						<i class="fa fa-calendar"></i> 2013 - 2017
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Computer Science, Study Abroad Semester</h4>
+                        <p><i>Academics:</i> 3.7/4.0 GPA</p>
+                        <p><i>Honors:</i> Freeman-Asia International Scholar - $5,000</p>
+                        <p><i>Activities:</i> Study Abroad Student</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-graduation-cap"></i>The Hong Kong Polytechnic University</h4>
+						<i class="fa fa-calendar"></i> 2014 - 2015
+						<hr class="visible-xs">
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
+						<a target="_blank" href="https://drive.google.com/file/d/0B0Du0MuCVtclbHY1MzhpcE5VRzQ/view" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i>Download Resume</a>
+					</div>
+                    
+
+				</div>
+                
+                <!--To help with spacing-->
+                <div class="row"><p></p></div>
+			</div>
+
+		</section>
+
+		<!-- Resume section end -->
+
+		<!-- Portfolio section start -->
+
+		<section id="portfolio" class="callout">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Portfolio</h2>
+						<p>Some of my apps and projects.</p>
+					</div>
+
+					<div class="col-md-4 col-sm-6 wow bounceInLeft">
+						<a target="_blank" href="https://github.com/classmere/app" title="Classmere">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+									<img src="assets/images/Classmere.png" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>Classmere</h3>
+									<p>iOS Course Catalog App.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 col-sm-6 wow bounceInRight">
+						<a target="_blank" href="https://github.com/brandonlee503/COMP1001-Final-Project" title="Poker">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+									<img src="assets/images/poker.png" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>5 Card Poker</h3>
+									<p>Python implementation for class project.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+                    
+                    <div class="col-md-4 col-sm-6 wow bounceInUp">
+						<a target="_blank" href="http://osuapp.club/" title="OSU App Club">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+                                    <img src="assets/images/OSU%20App%20Club.png" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>OSU App Club</h3>
+									<p>Main website for OSU's App Club.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".2s">
+						<a target="_blank" href="http://people.oregonstate.edu/~leebran/CS%20290%20Final%20Project/" title="Blogity">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+									<img src="assets/images/Blogity.png" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>Blogity</h3>
+									<p>Small and simple project for learning basic web development.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+                    
+					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".6s">
+						<a target="_blank" href="https://github.com/osu-mist/catalog-api-test" title="Course Catalog API">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+									<img src="assets/images/beaver_avatar-black.jpg" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>Course Catalog API</h3>
+									<p>Java/Groovy API for OSU's courses.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+                    
+					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".4s">
+						<a target="_blank" href="https://github.com/brandonlee503/Atmosphere" title="Atmosphere">
+							<div class="portfolio-item">
+								<div class="portfolio-item-preview">
+									<img src="assets/images/Weather-icon.png" alt="">
+								</div>
+								<div class="portfolio-item-description">
+									<h3>Atmosphere</h3>
+									<p>Simple weather app for leaning basic iOS.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Portfolio section end -->
+
+		<!-- Contact section start -->
+		<section id="contact" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInLeft">
+						<h2>Contact</h2>
+						<p>Lets talk. I would love to hear from you.</p>
+					</div>
+
+					<div class="col-md-6 wow bounceInUp">
+
+						<p>I'd be happy to answer any questions you might have through the methods below.</p>
+
+						<ul class="icon-list">
+							<li><i class="fa fa-fw fa-map-marker"></i>Portland, Oregon</li>
+							<li><i class="fa fa-fw fa-phone"></i>503 887 0935</li>
+							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">brandonlee503@gmail.com</a></li>
+							<li><i class="fa fa-fw fa-github"></i><a target="_blank" href="https://github.com/brandonlee503">https://github.com/brandonlee503</a></li>
+                            <li><i class="fa fa-fw fa-linkedin"></i><a href="http://lnked.in/blee">https://www.linkedin.com/in/brandonlee503</a></li>
+						</ul>
+
+					</div>
+                    
+                    <div class="col-md-6 hidden-xs wow bounceInRight">
+						<img src="assets/images/DragonsBack.JPG" alt="">
+                    </div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Contact section end -->
+
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.backstretch.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+	<script src="assets/js/jquery.waypoints.js"></script>
+	<script src="assets/js/jquery.countTo.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.fitvids.js"></script>
+	<script src="assets/js/custom.js"></script>
 </body>
 </html>
